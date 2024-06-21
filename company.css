@@ -1,0 +1,406 @@
+/* CSS for the header */
+        header {
+            margin: 0;
+            padding: 0;
+            background-color:rgba(246, 246, 246, 0.578);
+            
+        }
+
+        
+.right
+{
+    float: right;
+    padding-top: 45px;
+    text-decoration: none;
+    margin-right: 30px;
+    
+
+}
+
+.right a
+{
+    text-decoration: none;
+    color: black;
+    
+}
+.login{margin-right: 15px;}
+
+.Register{margin-right: 15px;}
+.log{
+	width:80px;
+}
+
+#prof{
+    width:40px;
+    height:40px;
+    float:right;
+   margin-top: -20px;
+}
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url("p5.jpg");
+            font-family: Arial, Helvetica, sans-serif;
+            background-size: cover;
+            
+            background-repeat: no-repeat;
+        }
+
+
+
+
+        .page-name {
+            font-family: serif;
+            font-weight: bold;
+            color: rgb(101, 0, 0);
+            text-decoration: none;
+            font-size: 40px;
+            margin-left:20px;
+            
+        }
+
+        #photo{
+            margin-left:20px;
+        }
+
+        nav {
+            
+             width: 100%
+        }
+
+        ul {
+            padding: 0;
+            margin: 0 0 0 100px;
+            list-style: none;
+        }
+        li {
+            float: left;
+        }
+        
+        nav a {
+            padding: 10px;
+            display: block;
+            text-decoration: none;
+            font-family: Arial;
+            color: black;
+            text-align: center;
+            width: 150px;
+        }
+
+        nav a:hover {
+            width: 150px;
+            color:black;
+            background: rgb(234, 238, 209);
+            transition: 0.5s;
+            
+        }
+	
+	
+	/* Slideshow container */
+.slideshow-container {
+  max-width: 700px;
+  margin-bottom: 20px ;
+  position: relative;
+  margin: auto;
+}
+
+/*Hide the images by default */
+.mySlides{ 
+  display: none;
+}
+/*image size setting*/
+.c1{
+	width:700px;
+	height:500px;
+	 
+
+}
+
+.c2{
+	width:700px;
+	height:500px;
+	
+
+}
+	
+.c3{
+	width:700px;
+	height:500px;
+	  
+
+}
+
+/* Next & previous buttons */
+.prev, .next{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next{ 
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align:center;
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+	
+	
+	
+
+
+h1{
+	font-family:Arial; 
+	color :black;
+	font-size:40px;
+}
+
+.para{
+	font-size:21px;
+	
+	
+}
+
+.btn{
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+
+/* Red */
+.apply {
+  color: red;
+}
+
+.apply:hover {
+  background: #f44336;
+  color: white;
+}
+
+
+.grid-container {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-gap: 10px;
+                margin-top: 20px;
+                padding: 10px;
+            }
+            
+            .grid-item {
+                background-color: white;
+                padding: 60px;
+                text-align: center;
+                font-size: 18px;
+            }
+        
+            .apply-button {
+                background-color: #4CAF50;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 4px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin-top: 10px;
+                cursor: pointer;
+            }
+			
+.d1{
+	width:200px;
+	height:200px;
+}
+.d2{
+	width:200px;
+	height:200px;
+}
+.d3{
+	width:200px;
+	height:200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    margin-top: 10%;
+    padding: 1vw;
+    background-color: #6469bb;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap:wrap;
+     
+ }
+ 
+ footer h3{
+    color: azure;
+    font-weight: 600px;
+    padding-bottom: 0px;
+ }
+ footer li{
+    list-style: none;
+    color: #2c2828;
+    padding: 8px 0;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+ }
+ .p1{
+  max-width: 40px;
+ }
+ .p2{
+  max-width: 40px;
+ }
+ .p3{
+  max-width: 40px;
+ }

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="about.css">
+  <title>Career Journey</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+ </head>
+<body>
+     <header>
+    <div class="logo">
+	<a href="#"><img src="image/logo.jpeg" class="log"></a>
+	<a href="home.html" class="page-name">Career Journey</a>
+	       <div class="right">
+            <a href="loginPage.php" class="login" >Login</a>
+            <a href="register.php" class="Register" >Register</a>
+            <a href=""> <img src="image/photo.png" id="prof"></a>
+            </div> 
+	</div> 
+	   
+	</header>
+	
+
+
+
+
+    <!--navigation bar// -->
+    <nav>
+        <ul class="navigation-tabs">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="post_jobs.html">Post Jobs</a></li>
+            <li><a href="candidate.php">Candidate</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+            <li><a href="help.php">Help</a></li>
+        </ul>
+    </nav>
+  
+  
+  
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1/ 6</div>
+    <img src="image/pic1.jpg" class="c1">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 /6</div>
+    <img src="image/pic2.jpg" class="c2" >
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 6</div>
+    <img src="image/pic3.jpg" class="c3">
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 6</div>
+    <img src="image/pic4.jpg" class="c4">
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">5/ 6</div>
+    <img src="image/pic5.jpg" class="c5">
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 6</div>
+    <img src="image/pic6.jpg" class="c6">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+  
+ <script>
+ let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+ </script>
+ 
+ 
+ 
+
+ <h1>About us</h1> 
+  <div class="para">
+  <p>Career Journey is a dynamic and innovative company that specializes in providing comprehensive career development and job search solutions. With a focus on empowering individuals to navigate their professional paths, Career Journey offers a range of services and resources designed to enhance career growth and success.</p><p>
+
+At Career Journey, we understand that each individual has unique aspirations and goals. Our team of career experts is dedicated to offering personalized guidance and support to help individuals make informed decisions about their careers. Whether someone is just starting their career journey or looking to make a career transition, we provide the tools and insights necessary to navigate the ever-changing job market.</p><p>
+
+One of our key offerings is a user-friendly online platform that connects job seekers with a wide range of employment opportunities. Through our platform, individuals can explore job listings, create professional profiles, and submit applications with ease. We strive to streamline the job search process and bridge the gap between employers and job seekers.</p><p>
+
+Additionally, Career Journey offers valuable resources such as resume writing assistance, interview preparation, and career coaching. Our team of experts is experienced in various industries and can provide tailored guidance to help individuals present their skills and experience effectively.</p><p>
+
+We pride ourselves on maintaining strong partnerships with reputable employers, both locally and internationally. This enables us to curate a diverse range of job opportunities across various sectors, ensuring that our users have access to a wide range of career options.</p><p>
+
+Career Journey is committed to staying ahead of industry trends and technologies to provide cutting-edge solutions to our users. We continuously update our platform and services to incorporate the latest advancements in the job market, ensuring that our users have a competitive edge in their career pursuits.</p><p>
+
+In summary, Career Journey is a forward-thinking company that empowers individuals to take control of their career paths. Through our comprehensive services, resources, and technology-driven solutions, we strive to make the career development and job search process more accessible, efficient, and successful for our users.</p>
+
+
+
+
+
+
+
+  </div>
+  
+  <img src="image/ceo.jpg" alt="our CEO photo" width="500" height="700" >
+
+  <!--check againnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn// -->
+  
+  
+ 
+  
+  
+  <footer>
+    <div class="footer-col">
+      <h3>Contact CareerJourney</h3>
+      <h5>+94472254195</h5>
+      <h5>Fax:+94472254195</h5>
+      <h5>E-mail:careerjourney</h5>
+      <h5>Marketing Services</h5>
+
+    </div>
+    <div class="footer-col">
+      <br>
+      <br>
+      
+
+      <h5>No 42,<br>
+          Nawam Road,<br>
+          Colombo 04,<br>
+          Sri Lanka<br></h5>
+      
+    </div>
+    <div class="footer-col">
+      <h3>Explora CareerJourney</h3>
+      
+      <h5>Our partners</h5>
+      <h5>Our Vision</h5>
+    </div>
+    <div class="footer-col">
+      <h3>About CareerJourney</h3>
+      <h5>News</h5>
+    
+      <img src="image/p1.jpeg" class="p1">
+      <img src="image/p2.jpeg" class="p2">
+      <img src="image/p3.jpeg" class="p3"> 
+
+    </div>
+  
+</footer>
+  
+  
+  
+  
+  
+  
+  
+  
+
+				 
+				 
+				 
+
+</body>
+</html>
